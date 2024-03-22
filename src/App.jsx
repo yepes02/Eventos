@@ -1,11 +1,17 @@
 import './App.css';
 import CicloVida from './Components/compCicloVida';
+import LifecycleComponent from './Components/compLife';
+import Referencias from './Components/compRefe';
 import PruebaState from './Components/componente1';
 import CompRefs from './Components/comprefs'
 
+
+
 function App() {
   return (
-    <CicloVida></CicloVida>
+    <Referencias></Referencias>
+    //<LifecycleComponent></LifecycleComponent>
+    //<CicloVida></CicloVida>
     //<CompRefs></CompRefs>
     //<PruebaState></PruebaState>
   //   <div className="App">
